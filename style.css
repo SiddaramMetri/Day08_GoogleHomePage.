@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;  
+}
+ body{
+    overflow-x:hidden;
+    font-family: 'Open Sans', sans-serif; 
+} 
+
+.navbar{
+    margin-top: 0px;
+    background-color: #fff;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color:#fff;
+    padding: 15px 0px 0px 0px;
+}
+.folateds{
+    margin-left:500xp;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    margin-right: -10px;
+}
+li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    height: 23px;
+    position: relative;
+    bottom: 4px;
+}
+.signbutton {
+    background-color: #4885ed;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: relative;
+    bottom: 7px;
+    font-weight: bold;
+}
+#googleimg{
+    width: 40%;
+    margin-left: 20%;
+}
+.searchbar {
+    margin: 0 auto;
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+    margin-left: -8%;
+}
+.searchbar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.searchbar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+.searchsearchbar {
+    height: 35px;
+    border: none;
+    width: 480px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.micvoice {
+    height: 20px;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+}
+.cancla{
+    font-size: 25px;
+    font-weight: 200;
+    position: absolute;
+    top: 8px;
+    left: 45%;
+    
+}
+.camara {
+    height: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+/* content google homepage */
+.containerss{
+    margin-top: 5%;
+    margin-left: 13%;
+}
+.containersses{
+    margin-top: 0%;
+    margin-left: 13%;
+}
+.content-nav > ul > li {
+    color: #000;
+    padding: 0px 20px;
+    float: left;
+    margin-left: -10px;
+    margin-bottom: 15px;
+}
+#icons{
+    color: #464343;
+    padding: 0 5px;
+}
+hr.liness{
+    border: 1px solid rgb(122, 122, 122);
+}
+/* google inside Cotent */
+
+.content{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.inside-content{
+    display: flex;
+    flex-direction: column;
+}
+.cont{
+    margin-left: 5%;
+
+}
+.content-in{
+    line-height: 40px;
+}
+
+.inside-content > .content-in{
+    margin-left: 50px;
+    
+}
+.inside-content > .content-in > div > a{
+    font-size: 18px;
+    color: blue;
+}
+.inside-content > ul > li > div{
+    margin-top: 50px;
+    font-size: 18px;
+    color: blue;
+}
